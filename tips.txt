@@ -1,0 +1,15 @@
+=====================================================================================================================
+
+This file constains some tips or keys for certain action in some plugins the copy of the same file can be found in ~/Public/Learnings/vim
+
+format of the file 
+	pluginName:
+		key => feature
+
+=====================================================================================================================
+
+Neotree[when the tree is bing opened]:
+	a => creates a file or dir in that location
+	d => deletes a file which is focused 
+	/ => look up in the file tree but we can use telescope
+    r => rename a file which is being focused
