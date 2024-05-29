@@ -44,7 +44,7 @@ vim.keymap.set("n","<leader>b",":Neotree close<CR>")
 --
 --lsp remaps
 --this will open docs provided by the lsp
-vim.keymap.set("n","D",vim.lsp.buf.hover,{})
+--vim.keymap.set("n","D",vim.lsp.buf.hover,{})
 vim.keymap.set("n","gd",vim.lsp.buf.definition,{})
 vim.keymap.set({"n",'v'},"<leader>ca",vim.lsp.buf.code_action,{})
 
