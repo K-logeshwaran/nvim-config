@@ -13,7 +13,7 @@ return {
         lazy=false,
         config = function()
             require("mason-lspconfig").setup({
-                ensure_installed = { "lua_ls", "golangci_lint_ls","gopls", "clangd"}
+                ensure_installed = { "lua_ls", "golangci_lint_ls","gopls", "clangd","quick_lint_js","tsserver"}
             })
         end
     },
@@ -34,7 +34,9 @@ return {
             lspconfig.gopls.setup({
                 capabilities=capabilities
             })
-
+            lspconfig.tsserver.setup({
+                capabilities = capabilities
+            })
         end
     }
 }
