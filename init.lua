@@ -1,4 +1,4 @@
--- choice is lazy-nvim
+--y choice is lazy-nvim
 -- pliggins
 -- 	rose-pine for colorscheme
 -- 	telescope
