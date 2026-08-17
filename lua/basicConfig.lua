@@ -50,3 +50,16 @@ vim.keymap.set({"n",'v'},"<leader>ca",vim.lsp.buf.code_action,{})
 
 
 
+--themes
+--vim.cmd("colorscheme cendre")
+
+--  vim.cmd("colorscheme rose-pine-moon")
+--	vim.api.nvim_set_hl(0,"Normal",{bg="none"})
+--	vim.api.nvim_set_hl(0,"NormalFloat",{bg="none"})
+--------
+--rose pine setup
+--vim.cmd("colorscheme rose-pine")
+--vim.cmd("colorscheme rose-pine-main")
+--vim.cmd("colorscheme rose-pine-dawn")
+
+
