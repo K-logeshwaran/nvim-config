@@ -29,11 +29,13 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = "80"
 
 
-
-
 --remaps
 
 vim.g.mapleader = " " 
+--for tab indent  and unindent
+vim.keymap.set("v", "<Tab>", ">gv", { noremap = true, silent = true })
+vim.keymap.set("v", "<S-Tab>", "<gv", { noremap = true, silent = true })
+-- for commenting
 
 --neo tree remaps
 
@@ -44,7 +46,7 @@ vim.keymap.set("n","<leader>b",":Neotree close<CR>")
 --
 --lsp remaps
 --this will open docs provided by the lsp
---vim.keymap.set("n","D",vim.lsp.buf.hover,{})
+--vim.keymap.set("n","<leder>t",vim.lsp.buf.hover,{})
 vim.keymap.set("n","gd",vim.lsp.buf.definition,{})
 vim.keymap.set({"n",'v'},"<leader>ca",vim.lsp.buf.code_action,{})
 
