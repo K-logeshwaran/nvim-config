@@ -2,13 +2,13 @@
 -- pliggins
 -- 	rose-pine for colorscheme
 -- 	telescope
---	treesitter 
+--	treesitter
 -- lazy vim install script
-
+-- trying formatting
 --Task
 --  remaining task setting
 --  lsp
---  codesnippet 
+--  codesnippet
 --  autocomplete
 require("basicConfig")
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
